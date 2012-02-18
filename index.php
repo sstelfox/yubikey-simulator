@@ -370,7 +370,7 @@
       <h1>YubiKey Simulator v0.9</h1>
       <p>This was built by Sam Stelfox referencing the documentation on the <a href="http://www.yubico.com/documentation">Yubico website</a> and produces valid OTPs based on it's internal variables. It was funtionally tested against the Google code projects <a href="http://code.google.com/p/yubikey-val-server-php">yubikey-val-server</a> and <a href="http://code.google.com/p/yubikey-ksm">yubikey-ksm</a>.</p>
       <p>One of the things to note: The 'Generate Random Token' feature will generate a Token ID between 12-16 characters long. The spec of the YubiKey specifies that the Token ID can be 0-128 bits in length or 0-16 hexadecimal characters. The validation server and ksm server linked to above ONLY accept 12 character Token IDs.</p>
-      <p>The code has been released under the <a href='LICENSE.txt'>MIT</a> license, you can find the source for this page <a href='placeholder'/>here</a>.</p>
+      <p>The code has been released under the <a href='LICENSE.txt'>MIT</a> license, you can find the source for this page <a href='https://github.com/sstelfox/yubikey-simulator'/>here</a>.</p>
     <div id="settokenform">
       <fieldset>
         <legend>Import a Token</legend>
